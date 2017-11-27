@@ -1,0 +1,79 @@
+.box {
+  background: white;
+  min-width: 210px;
+  border-radius: 10px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 5px;
+  padding: 20px;
+}
+
+.box h5 {
+  font-size: 21px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #414141;
+  font-weight: 400;
+}
+
+.team {
+  width: 220px;
+  padding: 5px;
+  box-sizing: border-box;
+  height: 50px;
+  background: #f8f8f8;
+  color: #414141;
+  /* color: white; */
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+@media screen and (max-width: 1050px) { 
+  .team {
+    width: 100%
+  }
+}
+
+.team-logo {
+  width: 40px;
+  height: 100%;
+  padding-right: 5px;
+  border-right: 1px solid rgba(218, 218, 218, 0.3);
+}
+
+.team-logo-logo {
+  background-size: 90%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+
+}
+
+.team-name {
+  white-space: pre-wrap;
+  font-size: 15px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.team-drag {
+  background: url("./../images/sort.png");
+  background-size: 100%;
+  cursor: row-resize;
+  background-repeat: no-repeat;
+  width: 25px;
+  margin-right: 12px;
+  height: 15px;
+}
+
+.group .team:last-of-type {
+  background: rgb(252, 157, 157);
+}

@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+
+* {
+  text-rendering: optimizeLegibility!important;
+  -webkit-font-smoothing: antialiased!important;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  touch-action: manipulation;
+	height:100%;
+  background: #EFEFEF;
+  font-family: "Roboto", sans-serif;
+}
+
+.Header-bar {
+  background: white;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.Logo {
+  background-image: url("./images/logo.png");
+  background-size: 100%;
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.Header-banner {
+  background: url("./images/logo_backdrop.png") #202C3A no-repeat;
+  background-position: center top;
+  width: 100%;
+  height: 200px;
+  font-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.Header-banner span {
+  padding-bottom: 50px;
+}
+
+.App-Content {
+  width: 90%;
+  margin: -50px auto 0;
+  border-radius: 10px;
+  /* max-width: 1300px; */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.App-Content h2{
+  color: #E79F05;
+  overflow: visible;
+  text-align: center;
+  white-space: nowrap;
+  text-transform: uppercase;
+  padding-top: 20px;
+  margin: -45px auto 0;
+  position: relative;
+}
+.App-Content h2:after {
+  content: "";
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+  height: 2px;
+  background: #E79F05;
+
+}
+
+.App-Content h4 {
+  color: grey;
+  font-weight: 100;
+  font-size: 15px;
+  height: 30px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .App-Content {
+    background: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  .App-Content h2 {
+    text-align: left;
+    margin: 0;
+  }
+  .App-Content h2:after {
+    margin: 0;
+  }
+  .App-Content h4 {
+    margin: 5px 0;
+    text-align: left;
+  }
+    
+}
+
+
+.App-Content button {
+  border: 0;
+  display: block;
+  background: #E4B727;
+  color: #FAF3D9;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 0px 20px #E4B727;
+  margin: 10px;
+  transition: 300ms all;
+  cursor: pointer; 
+}
+
+.App-Content button.back {
+  
+  background: rgb(134, 134, 131);
+  box-shadow: 0 0px 20px rgb(134, 134, 131);
+}
+
+button:hover {
+  background: rgb(247, 208, 91);
+  box-shadow: 0 0px 20px #E4B727;
+}
+
+button:disabled,
+button[disabled]{ 
+  background: #D3D2D3;
+  color: #565656;
+  opacity: 0.9;
+  box-shadow: 0 0 0px #D3D2D3;
+}

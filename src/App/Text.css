@@ -1,0 +1,29 @@
+.box p a{
+  color: black;
+  text-decoration: none;
+}
+
+.buttons {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.download {
+  background-color: rgb(146, 55, 55) !important;
+  box-shadow: 0 0 20px rgb(146, 55, 55)  !important;
+}
+
+.twitter {
+  background-color: #0084b4 !important;
+  box-shadow: 0 0px 20px #0084b4 !important;
+}
+
+@media screen and (max-width: 800px){
+  .no-mobile {
+    display: none;
+  }
+  .buttons { 
+    flex-direction: column;
+  }
+}
