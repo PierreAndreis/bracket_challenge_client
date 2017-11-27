@@ -2,6 +2,7 @@
   "name": "bracketchallenge",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bracket.vgpro.gg/",
   "dependencies": {
     "axios": "^0.17.1",
     "normalize.css": "^7.0.0",
