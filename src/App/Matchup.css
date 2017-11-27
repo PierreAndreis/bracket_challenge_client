@@ -1,12 +1,14 @@
 .matchups {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
   .matchups {
     flex-direction: column;
   }
-}
+} */
 
 .matchup {
   margin: 10px;

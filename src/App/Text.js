@@ -2,6 +2,7 @@ import React from "react";
 import "./Text.css";
 
 const URL = "https://bracket_api.vgpro.gg"
+// const URL = "http://localhost:8080";
 
 export default ({data, status}) => {
   if (status === "loading") { return <p>Loading...</p> }

@@ -9,6 +9,7 @@ html, body, #root {
   padding: 10px;
   box-sizing: border-box;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .buttons_app {
@@ -17,9 +18,9 @@ html, body, #root {
 }
 
 
-@media screen and (max-width: 1050px) {
+/* @media screen and (max-width: 800px) {
   .content {
     width: auto;
     flex-direction: column;
   }
-}
+} */

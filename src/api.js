@@ -3,6 +3,7 @@ import axios from "axios";
 const API = {};
 
 const url = "https://bracket_api.vgpro.gg"
+// const url = "http://localhost:8080";
 
 
 API.checkIgn = async (ign) => {

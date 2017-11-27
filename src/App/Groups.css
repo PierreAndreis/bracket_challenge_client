@@ -32,11 +32,6 @@
   align-items: center;
   position: relative;
 }
-@media screen and (max-width: 1050px) { 
-  .team {
-    width: 100%
-  }
-}
 
 .team-logo {
   width: 40px;

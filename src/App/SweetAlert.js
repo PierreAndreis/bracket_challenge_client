@@ -19,7 +19,11 @@ const gatherDetails = async () => {
       preConfirm(ign) {
         return new Promise(async (resolve) => {
           try {
-            if (!ign) swal.showValidationError('Please provide an IGN');
+            if (!ign) {
+              swal.showValidationError('Please provide an IGN');
+              resolve();
+              return;
+            }
             const res = await API.checkIgn(ign);
             if (res === 1) swal.showValidationError('This IGN is already taken.');
             if (res === -1) swal.showValidationError('Internal Server Error. Try again later. 009');
@@ -37,7 +41,11 @@ const gatherDetails = async () => {
       preConfirm(email) {
         return new Promise(async (resolve) => {
           try {
-            if (!email) swal.showValidationError('Please provide an e-mail');
+            if (!email) {
+              swal.showValidationError('Please provide an e-mail');
+              resolve();
+              return;
+            }
             const res = await API.checkEmail(email);
             if (res === 1) swal.showValidationError('This e-mail is already taken.');
             if (res === -1) swal.showValidationError('Internal Server Error. Try again later. 008');
