@@ -1,10 +1,10 @@
 import React from "react";
 import "./Text.css";
 
-const URL = "http://localhost:8080"
+const URL = "https://bracket_api.vgpro.gg/"
 
 export default ({data, status}) => {
-  if (status !== "ready") { return null }
+  if (status !== "ready") { return <p>Loading...</p> }
 
   const urlTwitter = `${URL}/${data.ign}/connect`;
   const urlBracket = `${URL}/${data.ign}/bracket.jpg`;

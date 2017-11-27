@@ -21,7 +21,7 @@ class App extends Component {
     super();
     this.state = {
       status: "ready",
-      data: {ign: "4ever"},
+      data: {},
     }
   }
 
