@@ -150,7 +150,7 @@ class App extends Component {
       },
       {
         title: "Group Phase",
-        desc: "Drag and drop the teams on the position they will be at the end of the group phase. The bottom team will be elimited."
+        desc: "Drag and drop the teams on the position they will be at the end of the group phase. Bottom will be eliminated."
       },
       {
         title: "Quarter Finals",
@@ -209,6 +209,7 @@ class App extends Component {
       <div>
           <h2>{titles[phase].title}</h2>
           <h4>{titles[phase].desc}</h4>
+          <br />
         <div className="content">
           {component}
         </div>

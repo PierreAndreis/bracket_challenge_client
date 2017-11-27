@@ -4,7 +4,8 @@ const initialTeams = [
   [
     "Cloud9",
     "Elite8",
-    "Red Canids"
+    // "Red Canids"
+    "Pain Gaming"
   ],
   [
     "G2 Esports",

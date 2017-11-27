@@ -18,9 +18,12 @@ const Team = SortableElement(({team}) => {
 });
 
 const TeamsGroup = SortableContainer(({group, groupName}) => {
+
+  const groupLetter = ["A", "B", "C", "D"]
+
   return (
   <div className="group box">
-    <h5>Group {groupName + 1}</h5>
+    <h5>Group {groupLetter[groupName]}</h5>
       {group.map((team, index) => <Team index={index} key={team} team={team} />)}
     </div>
   );

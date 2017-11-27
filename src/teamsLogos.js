@@ -4,9 +4,11 @@ import Detonation from "./images/teams/DNG.png";
 import Elite8     from "./images/teams/E8.png";
 import G2         from "./images/teams/G2.png";
 import Impunity   from "./images/teams/Impunity.png";
-import Red        from "./images/teams/RED.png";
+// import Red        from "./images/teams/RED.png";
 import TSM        from "./images/teams/TSM.png";
 import Tribe      from "./images/teams/Tribe.png";
+
+import Pain from "./images/teams/Pain.png";
 
 import Hunters    from "./images/teams/hunters.png";
 import VK         from "./images/teams/vk.png";
@@ -25,7 +27,8 @@ import Rox        from "./images/teams/rox.png";
 
 const logos = {
   "Elite8": Elite8,
-  "Red Canids": Red,
+  // "Red Canids": Red,
+  "Pain Gaming": Pain,
   "Cloud9": Cloud9,
   
   "G2 Esports": G2,

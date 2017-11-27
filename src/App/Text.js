@@ -4,7 +4,8 @@ import "./Text.css";
 const URL = "https://bracket_api.vgpro.gg"
 
 export default ({data, status}) => {
-  if (status !== "ready") { return <p>Loading...</p> }
+  if (status === "loading") { return <p>Loading...</p> }
+  if (status === "error") { return <p>Something happened. Please try again.</p>}
 
   const urlTwitter = `${URL}/${data.ign}/connect`;
   const urlBracket = `${URL}/${data.ign}/bracket.jpg`;
@@ -21,7 +22,7 @@ export default ({data, status}) => {
       <a href={urlBracket} target="_blank" download rel="noopener noreferrer">
         <button className="download">Download your bracket</button>
       </a>
-      <a href={urlBracket} target="_blank" download rel="noopener noreferrer">
+      <a href="https://vgpro.gg" target="_blank" download rel="noopener noreferrer">
         <button className="vgpro">Check your Vainglory Stats</button>
       </a>
     </p>
