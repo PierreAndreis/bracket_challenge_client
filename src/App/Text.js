@@ -1,7 +1,7 @@
 import React from "react";
 import "./Text.css";
 
-const URL = "https://bracket_api.vgpro.gg/"
+const URL = "https://bracket_api.vgpro.gg"
 
 export default ({data, status}) => {
   if (status !== "ready") { return <p>Loading...</p> }
