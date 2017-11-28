@@ -32,7 +32,7 @@ const logos = {
   "Cloud9": Cloud9,
   
   "G2 Esports": G2,
-  "Vainglory Kraken": VK,
+  "Team Kraken": VK,
   "Detonation": Detonation,
 
   "Impunity": Impunity,

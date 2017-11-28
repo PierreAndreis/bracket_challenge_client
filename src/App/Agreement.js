@@ -5,7 +5,7 @@ export default () => {
 
   return (
     <div className="box">
-    <p>Welcome to VGPRO.gg Worlds Bracket Challenge!</p>
+    Welcome to VGPRO.gg Worlds Bracket Challenge!
     <p>Before you begin, please make sure you read throughly and accept the following terms: </p>
     <ul>
       <li>If your IGN is incorrect, you will be disqualified from receiving rewards.</li>

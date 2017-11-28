@@ -9,7 +9,7 @@ const initialTeams = [
   ],
   [
     "G2 Esports",
-    "Vainglory Kraken",
+    "Team Kraken",
     "Detonation",
   ],
   [
